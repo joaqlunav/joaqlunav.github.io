@@ -2786,6 +2786,66 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+
+/*Single Image*/
+.singlei {
+	border-radius: 0.25em;
+	padding-left: 18%;
+	border: 0;
+	height:auto;
+	width: auto;
+	object-fit: contain;
+	object-position: center;
+	background-color: #000000;
+}
+
+	.singlei img {
+		border-radius: 0.25em;
+		width: 700px;
+		height: 700px;
+		object-fit: contain;
+	}
+
+	.singlei.left, .singlei.right {
+		max-width: 100%;
+	}
+
+		.singlei.left img, .singlei.right img {
+			width: 100%;
+		}
+
+	.singlei.left {
+		float: left;
+		margin: 0 1.5em 1em 0;
+		top: 0.25em;
+	}
+
+	.singlei.right {
+		float: right;
+		margin: 0 0 1em 1.5em;
+		top: 0.25em;
+	}
+
+	.singlei.fit {
+		display: flex;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+	.singlei.fit img {
+			width: 100%;
+		}
+
+	.singlei.main {
+		display: flex;
+		margin: 0 0 3em 0;
+		width: 100%;
+	}
+
+		.singlei.main img {
+			width: 100%;
+		}
+
 /* GIF  */
 .gif {
 	border-radius: 0.25em;
@@ -2845,6 +2905,123 @@ input, select, textarea {
 			width: 100%;
 		}
 
+/*Gif 2*/
+.gif2 {
+	border-radius: 0.25em;
+	padding-left: 10%;
+	border: 0;
+	height:auto;
+	width: auto;
+	object-fit: contain;
+	object-position: center;
+	background-color: #000000;
+}
+
+	.gif2 img {
+		border-radius: 0.25em;
+		width: 800px;
+		height: 600px;
+		object-fit: contain;
+	}
+
+	.gif2.left, .gif2.right {
+		max-width: 100%;
+	}
+
+		.gif2.left img, .gif2.right img {
+			width: 100%;
+		}
+
+	.gif2.left {
+		float: left;
+		margin: 0 1.5em 1em 0;
+		top: 0.25em;
+	}
+
+	.gif2.right {
+		float: right;
+		margin: 0 0 1em 1.5em;
+		top: 0.25em;
+	}
+
+	.gif2.fit {
+		display: flex;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+		.gif2.fit img {
+			width: 100%;
+		}
+
+	.gif2.main {
+		display: flex;
+		margin: 0 0 3em 0;
+		width: 100%;
+	}
+
+		.gif2.main img {
+			width: 100%;
+		}
+
+/*ImageRow*/
+.gif3 {
+	border-radius: 0.25em;
+	padding-left: 3%;
+	border: 0;
+	height:auto;
+	width: auto;
+	object-fit: contain;
+	object-position: left;
+	background-color: #000000;
+}
+
+	.gif3 img {
+		border-radius: 0.25em;
+		width: 500px;
+		height: 500px;
+		object-fit: contain;
+	}
+
+	.gif3.left, .gif3.right {
+		max-width: 100%;
+	}
+
+		.gif3.left img, .gif3.right img {
+			width: 100%;
+		}
+
+	.gif3.left {
+		float: left;
+		margin: 0 1.5em 1em 0;
+		top: 0.25em;
+	}
+
+	.gif3.right {
+		float: right;
+		margin: 0 0 1em 1.5em;
+		top: 0.25em;
+	}
+
+	.gif3.fit {
+		display: flex;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+		.gif3.fit img {
+			width: 100%;
+		}
+
+	.gif3.main {
+		display: flex;
+		margin: 0 0 3em 0;
+		width: 100%;
+	}
+
+		.gif3.main img {
+			width: 100%;
+		}
 
 /* Intro Image */
 
@@ -2923,8 +3100,8 @@ input, select, textarea {
 	padding-bottom: 10%;
 	display:inline-flex;
 	position: fixed;
-	width: 120%;
-	height: 120%;
+	width: 110%;
+	height: 110%;
 	padding-inline-end: 10%;
 }
 
@@ -4304,6 +4481,25 @@ input, select, textarea {
 			}
 
 		}
+
+/*Image row */
+.irow {
+    width: 100%; /* Try setting this to 400px or something */
+    display: table;
+}
+.image1 {
+    display: table-cell;
+}
+.image2 {
+    margin-left: 25px;
+    /* Decorative .. */
+    background-color: #000000;
+    min-height: 40px;
+}
+.image1:first-child .image2 {
+    margin-left: 0;
+}
+
 
 /* Intro */
 

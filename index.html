@@ -33,7 +33,7 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1><a href="#" class="introimage"><img src="images/profile.jpg" alt="" data-position="rights rights"/></a>Hi. I'm Joaquín </h1>
+							<h1><a class="introimage"><img src="images/profile.jpg" alt="" data-position="rights rights"/></a>Hi. I'm Joaquín </h1>
 							<p>I am a recent Computer Science and Software Engineering Graduate from UW Bothell.</p>
 							<p>Here are some of the projects I've created and worked on.</p>
 							<ul class="actions">
@@ -50,9 +50,22 @@
 								<div class="inner">
 									<h2>Lexsys App</h2>
 									<p>As part of my University of Washington Bothell CSSE Capstone Project, I designed and developed a MVP for a mobile application version of an existing legal consultancy service (Lexsys), with
-										the objective of creating a solution that improves the current service model. Developed in ReactNative with Firebase as backend, following incremental and iterative Agile development.</p>
+										the objective of creating a solution that improves the current service model. Developed in ReactNative with Firebase as backend, while following an incremental and iterative Agile development.</p>
 									<ul class="actions">
 										<li><a href="lexsys.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a class="image"><img src="images/finger.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Fingerprint Biometric Scanners</h2>
+									<p>For this project I designed and implemented both a single-fingerprint and a multi-fingerprint scanner interfacing softwares for users to
+										capture, validate and download their fingerprint data. Developed and packaged in JAVA on an Ubuntu environment.</p>
+									<ul class="actions">
+										<li><a href="biometric.html" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -75,7 +88,7 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Anime Timer</h2>
-									<p>This project consists of an Anime themed Pomodoro Timer which allows you to time your 
+									<p>This project consisted of an Anime themed Pomodoro Timer which allows you to time your 
 										working and break sessions. It includes a themed anime background with a corresponding song to it,
 										which you can choose from several options. 
 									</p>
@@ -107,23 +120,25 @@
 							<p>I am open for any position, project or collaboration. Please feel free to contact me regarding any opportunity or any question!</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form method="POST" action="https://formsubmit.co/joaq.lunav@gmail.com">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
+												<input type="text" name="name" id="name" required/>
 											</div>
 											<div class="field half">
 												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
+												<input type="hidden" name="_subject" value="Portfolio Message!">
+												<input type="email" name="email" id="email" required/>
 											</div>
 											<div class="field">
 												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
+												<input name="message" type="text"/>
+												
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<button type="submit">Send Message</button>				
 										</ul>
 									</form>
 								</section>
@@ -137,7 +152,7 @@
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">joaq.lunav@gmail.com</a>
+											<span>joaq.lunav@gmail.com</span>	
 										</li>
 										<li>
 											<h3>Phone</h3>
@@ -145,11 +160,10 @@
 										</li>
 										<li>
 											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											<ul class="icons">		
+												<li><a href="https://github.com/joaqlunav" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.instagram.com/joaq_lunav/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="https://www.linkedin.com/in/joaquin-luna-villagran" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
